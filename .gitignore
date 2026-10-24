@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+server/node_modules/
+
+# build output
+dist/
+dist-ssr/
+
+# local environment / secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# local firebase / vercel state
+.firebase/
+.vercel/
+
+# Vendored third-party AR filter bundle (~349 MB). It ships its own licence and
+# demo keys — including a private RSA key used by Jeeliz's local https server —
+# so it is kept out of the repository. See README for what this affects.
+public/jeelizFaceFilter/
+
+# os / editor noise
+.DS_Store
+Thumbs.db
+*.log

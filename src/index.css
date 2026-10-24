@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Memomini Vibrant Flat Theme */
+  :root {
+    --bg-color: #fafafa; /* Very light clean gray */
+    --text-color: #0b0c10; /* Pitch dark matching logo text */
+    --card-bg: #ffffff;
+    --border-color: #e2e8f0;
+    --border-width: 2px;
+    --radius-lg: 1.5rem; /* Clean rounded corners */
+    --shadow-main: 0 4px 6px -1px rgba(0, 0, 0, 0.05); /* Very subtle, mostly flat */
+    --btn-primary: #3b82f6; /* Vibrant Blue from logo */
+    --btn-primary-hover: #2563eb;
+    --btn-secondary: #f1f5f9;
+    --font-family: 'Outfit', sans-serif;
+    --title-shadow: none;
+  }
+
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-weight: 500; /* Bump base weight to medium */
+    overflow-x: hidden;
+    min-height: 100vh;
+    /* Clean flat background, no radial gradients */
+  }
+}
+
+@layer utilities {
+  .theme-card {
+    background: var(--card-bg);
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-main);
+  }
+
+  .theme-btn {
+    background: var(--btn-primary);
+    border: none;
+    border-radius: 1rem; /* Bento rounded-2xl */
+    color: #ffffff; /* White text on blue */
+    font-weight: 800; /* Outfit looks great at 800 for buttons */
+    text-transform: uppercase;
+    letter-spacing: 0.05em; /* Standard tracking for Outfit */
+    transition: all 0.2s ease-in-out;
+  }
+
+  .theme-btn:hover {
+    background: var(--btn-primary-hover);
+    transform: translateY(-2px);
+  }
+  
+  .theme-btn:active {
+    transform: translateY(0);
+  }
+
+  .theme-btn-secondary {
+    background: var(--btn-secondary);
+    border: 2px solid transparent;
+    border-radius: 1rem; /* Bento rounded-2xl */
+    color: var(--text-color);
+    font-weight: 700; 
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all 0.2s ease;
+  }
+
+  .theme-btn-secondary:hover {
+    background: #e2e8f0;
+  }
+
+  .theme-title {
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    color: var(--text-color);
+  }
+  
+  /* Utilities for the scrollbars */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  @keyframes color-cycle {
+    0% { color: #38bdf8; }
+    20% { color: #3b82f6; }
+    40% { color: #f97316; }
+    60% { color: #facc15; }
+    80% { color: #f472b6; }
+    100% { color: #38bdf8; }
+  }
+
+  .animate-color-cycle {
+    animation: color-cycle 4s linear infinite;
+  }
+
+  @keyframes shadow-rainbow-inset {
+    0% { box-shadow: inset 0 0 0 4px #ef4444; }
+    17% { box-shadow: inset 0 0 0 4px #f97316; }
+    33% { box-shadow: inset 0 0 0 4px #eab308; }
+    50% { box-shadow: inset 0 0 0 4px #22c55e; }
+    67% { box-shadow: inset 0 0 0 4px #3b82f6; }
+    83% { box-shadow: inset 0 0 0 4px #a855f7; }
+    100% { box-shadow: inset 0 0 0 4px #ef4444; }
+  }
+
+  .hover-rainbow-ring:hover {
+    z-index: 10;
+  }
+
+  .hover-rainbow-ring:hover::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    border-radius: inherit;
+    animation: shadow-rainbow-inset 1.5s linear infinite;
+    z-index: 20;
+  }
+
+  @keyframes liquid-alive {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes cheese-shake {
+    0%, 100% { transform: translateX(0) rotate(0deg); }
+    25% { transform: translateX(-2px) rotate(-3deg); }
+    75% { transform: translateX(2px) rotate(3deg); }
+  }
+
+  .animate-cheese {
+    animation: cheese-shake 0.4s ease-in-out infinite;
+  }
+
+  @keyframes rainbow-text {
+    0% { color: #ef4444; } /* red */
+    16% { color: #f97316; } /* orange */
+    33% { color: #eab308; } /* yellow */
+    50% { color: #22c55e; } /* green */
+    66% { color: #3b82f6; } /* blue */
+    83% { color: #a855f7; } /* purple */
+    100% { color: #ef4444; } /* red */
+  }
+
+  .animate-rainbow-text {
+    animation: rainbow-text 3s linear infinite;
+  }
+
+  .rainbow-btn {
+    background: transparent;
+    border: 3px solid var(--text-color);
+    border-radius: var(--radius-lg);
+    color: var(--text-color);
+    font-weight: 900;
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.4s ease;
+  }
+
+  .rainbow-btn::before {
+    content: '';
+    position: absolute;
+    top: -4px; left: -4px; right: -4px; bottom: -4px;
+    background-color: #3b82f6; /* Blue base */
+    background-image: radial-gradient(
+      circle 250px at var(--mouse-x, 50%) var(--mouse-y, 50%),
+      #facc15 0%,   /* Yellow */
+      #f97316 20%,  /* Orange */
+      #ec4899 45%,  /* Pink */
+      #38bdf8 70%,  /* Light Blue */
+      #3b82f6 100%  /* Blue */
+    );
+    filter: blur(6px) saturate(1.5);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+
+  .rainbow-btn:hover::before {
+    opacity: 1;
+    animation: liquid-alive 8s linear infinite;
+  }
+
+  .rainbow-btn:hover {
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Ensures white text pops over bright yellow/pink */
+    border-color: transparent;
+    transform: scale(1.02);
+    box-shadow: 0 10px 30px -5px rgba(236, 72, 153, 0.4);
+  }
+
+  .rainbow-btn:hover::before {
+    opacity: 1;
+  }
+  
+  .rainbow-btn:active {
+    transform: scale(0.95);
+  }
+}

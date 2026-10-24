@@ -1,0 +1,142 @@
+[
+  {
+    "id": "jeeliz_angel_demon",
+    "name": "angel demon",
+    "path": "/jeelizFaceFilter/demos/threejs/angel_demon/index.html"
+  },
+  {
+    "id": "jeeliz_anonymous",
+    "name": "anonymous",
+    "path": "/jeelizFaceFilter/demos/threejs/anonymous/index.html"
+  },
+  {
+    "id": "jeeliz_beautification",
+    "name": "beautification",
+    "path": "/jeelizFaceFilter/demos/threejs/beautification/index.html"
+  },
+  {
+    "id": "jeeliz_butterflies",
+    "name": "butterflies",
+    "path": "/jeelizFaceFilter/demos/threejs/butterflies/index.html"
+  },
+  {
+    "id": "jeeliz_casa_de_papel",
+    "name": "casa de papel",
+    "path": "/jeelizFaceFilter/demos/threejs/casa_de_papel/index.html"
+  },
+  {
+    "id": "jeeliz_celFace",
+    "name": "celFace",
+    "path": "/jeelizFaceFilter/demos/threejs/celFace/index.html"
+  },
+  {
+    "id": "jeeliz_cloud",
+    "name": "cloud",
+    "path": "/jeelizFaceFilter/demos/threejs/cloud/index.html"
+  },
+  {
+    "id": "jeeliz_cube",
+    "name": "cube",
+    "path": "/jeelizFaceFilter/demos/threejs/cube/index.html"
+  },
+  {
+    "id": "jeeliz_cube2cv",
+    "name": "cube2cv",
+    "path": "/jeelizFaceFilter/demos/threejs/cube2cv/index.html"
+  },
+  {
+    "id": "jeeliz_cubeExpr",
+    "name": "cubeExpr",
+    "path": "/jeelizFaceFilter/demos/threejs/cubeExpr/index.html"
+  },
+  {
+    "id": "jeeliz_dog_face",
+    "name": "dog face",
+    "path": "/jeelizFaceFilter/demos/threejs/dog_face/index.html"
+  },
+  {
+    "id": "jeeliz_dynamic_gltf",
+    "name": "dynamic gltf",
+    "path": "/jeelizFaceFilter/demos/threejs/dynamic_gltf/index.html"
+  },
+  {
+    "id": "jeeliz_faceDeform",
+    "name": "faceDeform",
+    "path": "/jeelizFaceFilter/demos/threejs/faceDeform/index.html"
+  },
+  {
+    "id": "jeeliz_fireworks",
+    "name": "fireworks",
+    "path": "/jeelizFaceFilter/demos/threejs/fireworks/index.html"
+  },
+  {
+    "id": "jeeliz_football_makeup",
+    "name": "football makeup",
+    "path": "/jeelizFaceFilter/demos/threejs/football_makeup/index.html"
+  },
+  {
+    "id": "jeeliz_glassesVTO",
+    "name": "glassesVTO",
+    "path": "/jeelizFaceFilter/demos/threejs/glassesVTO/index.html"
+  },
+  {
+    "id": "jeeliz_gltf_fullScreen",
+    "name": "gltf fullScreen",
+    "path": "/jeelizFaceFilter/demos/threejs/gltf_fullScreen/index.html"
+  },
+  {
+    "id": "jeeliz_halloween_spider",
+    "name": "halloween spider",
+    "path": "/jeelizFaceFilter/demos/threejs/halloween_spider/index.html"
+  },
+  {
+    "id": "jeeliz_headControls",
+    "name": "headControls",
+    "path": "/jeelizFaceFilter/demos/threejs/headControls/index.html"
+  },
+  {
+    "id": "jeeliz_luffys_hat_part1",
+    "name": "luffys hat part1",
+    "path": "/jeelizFaceFilter/demos/threejs/luffys_hat_part1/index.html"
+  },
+  {
+    "id": "jeeliz_luffys_hat_part2",
+    "name": "luffys hat part2",
+    "path": "/jeelizFaceFilter/demos/threejs/luffys_hat_part2/index.html"
+  },
+  {
+    "id": "jeeliz_matrix",
+    "name": "matrix",
+    "path": "/jeelizFaceFilter/demos/threejs/matrix/index.html"
+  },
+  {
+    "id": "jeeliz_miel_pops",
+    "name": "miel pops",
+    "path": "/jeelizFaceFilter/demos/threejs/miel_pops/index.html"
+  },
+  {
+    "id": "jeeliz_multiCubes",
+    "name": "multiCubes",
+    "path": "/jeelizFaceFilter/demos/threejs/multiCubes/index.html"
+  },
+  {
+    "id": "jeeliz_multiLiberty",
+    "name": "multiLiberty",
+    "path": "/jeelizFaceFilter/demos/threejs/multiLiberty/index.html"
+  },
+  {
+    "id": "jeeliz_rupy_helmet",
+    "name": "rupy helmet",
+    "path": "/jeelizFaceFilter/demos/threejs/rupy_helmet/index.html"
+  },
+  {
+    "id": "jeeliz_tiger",
+    "name": "tiger",
+    "path": "/jeelizFaceFilter/demos/threejs/tiger/index.html"
+  },
+  {
+    "id": "jeeliz_werewolf",
+    "name": "werewolf",
+    "path": "/jeelizFaceFilter/demos/threejs/werewolf/index.html"
+  }
+]

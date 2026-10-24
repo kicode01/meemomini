@@ -1,0 +1,22 @@
+[
+  {
+    "id": "store_cyberpunk_helmet",
+    "name": "Cyberpunk Helmet",
+    "author": "Three.js Examples",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1535295972055-1c762f4483e5?w=400&q=80",
+    "glbUrl": "https://raw.githubusercontent.com/mrdoob/three.js/master/examples/models/gltf/DamagedHelmet/glTF/DamagedHelmet.gltf",
+    "offsetY": 0.3,
+    "offsetZ": 0.0,
+    "scale": 2.5
+  },
+  {
+    "id": "store_fox",
+    "name": "Low Poly Fox",
+    "author": "Three.js Examples",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1516934024742-b461fba47600?w=400&q=80",
+    "glbUrl": "https://raw.githubusercontent.com/mrdoob/three.js/master/examples/models/gltf/Fox/glTF/Fox.gltf",
+    "offsetY": 0.5,
+    "offsetZ": 0.2,
+    "scale": 0.02
+  }
+]
