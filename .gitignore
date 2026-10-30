@@ -1,6 +1,7 @@
 # dependencies
 node_modules/
 server/node_modules/
+deploy/server/node_modules/
 
 # build output
 dist/
@@ -15,6 +16,8 @@ dist-ssr/
 # local firebase / vercel state
 .firebase/
 .vercel/
+deploy/.firebase/
+deploy/.vercel/
 
 # Vendored third-party AR filter bundle (~349 MB). It ships its own licence and
 # demo keys — including a private RSA key used by Jeeliz's local https server —
