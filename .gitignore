@@ -25,3 +25,9 @@ public/jeelizFaceFilter/
 .DS_Store
 Thumbs.db
 *.log
+
+# scratch / dev helpers
+scratch/
+*.py
+__pycache__/
+
