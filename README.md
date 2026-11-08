@@ -27,6 +27,12 @@ Transform any device into a vibrant, aesthetic photo booth. Capture timeless pho
 
 ## 🌟 The meemomini Experience
 
+
+
+https://github.com/user-attachments/assets/c898a7ba-c08b-4d1a-9e29-d45db777ecda
+
+
+
 Traditional photo booths require expensive hardware, clunky rental contracts, and tedious setups. **meemomini** redefines the photobooth for the modern web — delivering a studio-quality photo booth experience entirely within your browser.
 
 Whether running on a wedding kiosk iPad, a laptop at a house party, or a smartphone in the palm of your hand, **meemomini** combines cutting-edge client-side computer vision with nostalgic retro aesthetics. Capture physical-quality photo strips, customize every detail in an interactive decor studio, and transfer memories to your phone in seconds.
